@@ -1,84 +1,2992 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #F8F8F8;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-  }
-  
-  nav li {
-    margin: 0;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #444;
-    font-size: 16px;
-  }
-  
-  nav a:hover {
-    color: #000;
-  }
-  
-  main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
-  }
-  
-  .banner {
-    background-image: url("banner.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    text-align: center;
-  }
-  
-  .banner h2 {
-    font-size: 48px;
-    margin: 0;
-  }
-  
-  .banner p {
-    font-size: 24px;
-    margin: 20px 0;
-  }
-  
-  .services {
-    margin-top: 40px;
-  }
-  
-  .services h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .services li {
-    margin-bottom: 20px;
-  }
-  
-  .services h3 {
-    margin: 0;
-    font-size: 24px;
-  }
-  
-  
+/* home */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: relative;
+width: 1440px;
+height: 4582px;
+
+background: #FFFFFF;
+
+
+/* Navigation Bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12px 80px;
+
+width: 1440px;
+height: 96px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+/* Shadows/Small [Y:4, B:8] */
+box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.16);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 0px 17px;
+gap: 8px;
+
+width: 165px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* PERSONAL */
+
+width: 51px;
+height: 39px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #351F17;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FolioKit */
+
+width: 106px;
+height: 39px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #6F4324;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav Links */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 391px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav Links
+
+A "nav link" is a link in navigation bar that takes users to a certain page or section on your website. These links should not be underlined and colored same as the heading (or neutral 100).
+
+Usage: You can only use the "navLink" component inside a navigation bar if you want to redirect a user to a section or page on your website.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 391px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* _navLink
+
+A "nav link" is a link in navigation bar that takes users to a certain page on your website. These links should not be underlined and colored same as the heading (or neutral 100).
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 74px;
+height: 28px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/Outline/mail */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nav link */
+
+width: 74px;
+height: 20px;
+
+/* Link/Link Large */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+/* Neutrals / Neutral 90 */
+color: #525252;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* _navLink
+
+A "nav link" is a link in navigation bar that takes users to a certain page on your website. These links should not be underlined and colored same as the heading (or neutral 100).
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 89px;
+height: 28px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon/Outline/mail */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nav link */
+
+width: 89px;
+height: 20px;
+
+/* Link/Link Large */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+/* Neutrals / Neutral 90 */
+color: #525252;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* _navLink
+
+A "nav link" is a link in navigation bar that takes users to a certain page on your website. These links should not be underlined and colored same as the heading (or neutral 100).
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 65px;
+height: 28px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Icon/Outline/mail */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nav link */
+
+width: 65px;
+height: 20px;
+
+/* Link/Link Large */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+/* Neutrals / Neutral 90 */
+color: #525252;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* _navLink
+
+A "nav link" is a link in navigation bar that takes users to a certain page on your website. These links should not be underlined and colored same as the heading (or neutral 100).
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 91px;
+height: 28px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Icon/Outline/mail */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nav link */
+
+width: 91px;
+height: 20px;
+
+/* Link/Link Large */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+/* Neutrals / Neutral 90 */
+color: #525252;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 21
+
+A "nav link" is a link in navigation bar that takes users to a certain page on your website. These links should not be underlined and colored same as the heading (or neutral 100).
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+display: none;
+width: 60px;
+height: 28px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Hero Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1440px;
+height: 704px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Hero Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 0px 80px;
+gap: 131px;
+
+width: 1440px;
+height: 704px;
+
+background: #FCF8F0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 23 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+width: 630px;
+height: 240px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* UX/UI Designer & Researcher */
+
+width: 630px;
+height: 144px;
+
+/* Display/Display Large */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 72px;
+/* or 112% */
+letter-spacing: -0.02em;
+
+color: #351F17;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* CTAs */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 390px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button / Large / Filled */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 24px;
+
+width: 167px;
+height: 48px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button text */
+
+width: 87px;
+height: 16px;
+
+/* Button/Label - Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+color: #351F17;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button / Large / Outlined */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+
+width: 199px;
+height: 48px;
+
+background: #351F17;
+/* Primary/Primary 20 */
+border: 1px solid #D7DAEA;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button text */
+
+width: 119px;
+height: 16px;
+
+/* Button/Label - Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+/* Base / Base 10 */
+color: #FAFAFA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask Group */
+
+width: 599px;
+height: 704px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 599px;
+height: 704px;
+left: 841px;
+top: 0px;
+
+background: #C4C4C4;
+
+
+/* Mockups */
+
+position: absolute;
+width: 950px;
+height: 970.18px;
+left: 2297.56px;
+top: 569px;
+
+transform: rotate(5deg);
+
+
+/* Mobile */
+
+position: absolute;
+width: 205.53px;
+height: 452.11px;
+left: 2297.56px;
+top: 569px;
+
+/* Primary/Primary 10 */
+background: #F2F3F8;
+border-radius: 8px;
+transform: rotate(5deg);
+
+
+/* Mobile */
+
+position: absolute;
+width: 205.53px;
+height: 452.11px;
+left: 2725.84px;
+top: 704.45px;
+
+/* Primary/Primary 10 */
+background: #F2F3F8;
+border-radius: 8px;
+transform: rotate(5deg);
+
+
+/* Component */
+
+position: absolute;
+width: 205.53px;
+height: 144.68px;
+left: 2480.65px;
+top: 991.61px;
+
+/* Primary/Primary 10 */
+background: #F2F3F8;
+border-radius: 8px;
+transform: rotate(5deg);
+
+
+/* Mobile */
+
+position: absolute;
+width: 205.53px;
+height: 293.87px;
+left: 2507.45px;
+top: 685.34px;
+
+/* Primary/Primary 10 */
+background: #F2F3F8;
+border-radius: 8px;
+transform: rotate(5deg);
+
+
+/* Mobile */
+
+position: absolute;
+width: 205.53px;
+height: 452.11px;
+left: 2256.97px;
+top: 1032.9px;
+
+/* Primary/Primary 10 */
+background: #F2F3F8;
+border-radius: 8px;
+transform: rotate(5deg);
+
+
+/* Desktop / Website */
+
+position: absolute;
+width: 730.77px;
+height: 406.9px;
+left: 2466.86px;
+top: 1149.24px;
+
+/* Primary/Primary 10 */
+background: #F2F3F8;
+border-radius: 8px;
+transform: rotate(5deg);
+
+
+/* Group 2 */
+
+position: absolute;
+width: 950px;
+height: 970px;
+left: 841px;
+top: -181px;
+
+
+
+/* image 1 */
+
+position: absolute;
+width: 201.33px;
+height: 392.5px;
+left: 879px;
+top: 273.51px;
+
+background: url(image.png);
+border-radius: 8px;
+transform: matrix(1, 0.08, -0.1, 1, 0, 0);
+
+
+/* image 4 */
+
+position: absolute;
+width: 201.33px;
+height: 392.5px;
+left: 1143.3px;
+top: -158.54px;
+
+background: url(image.png);
+border-radius: 8px;
+transform: matrix(1, 0.08, -0.1, 1, 0, 0);
+
+
+/* image 2 */
+
+position: absolute;
+width: 704.4px;
+height: 347.34px;
+left: 1088.77px;
+top: 388.03px;
+
+background: url(image.png);
+border-radius: 8px;
+transform: matrix(1, 0.08, -0.1, 1, 0, 0);
+
+
+/* Group 1 */
+
+position: absolute;
+width: 209.1px;
+height: 140.55px;
+left: 1088.91px;
+top: 247.49px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 197.6px;
+height: 125.04px;
+left: 1101.01px;
+top: 247.78px;
+
+background: #D9D9D9;
+border-radius: 8px;
+transform: matrix(1, 0.08, -0.1, 1, 0, 0);
+
+
+/* image 3 */
+
+position: absolute;
+width: 194.95px;
+height: 125.85px;
+left: 1101.94px;
+top: 247.49px;
+
+background: url(image.png);
+border-radius: 8px;
+transform: matrix(1, 0.08, -0.1, 1, 0, 0);
+
+
+/* image 5 */
+
+position: absolute;
+width: 201.13px;
+height: 433.42px;
+left: 918.05px;
+top: -181px;
+
+background: url(image.png);
+border-radius: 8px;
+transform: matrix(1, 0.08, -0.1, 1, 0, 0);
+
+
+/* image 6 */
+
+position: absolute;
+width: 200.49px;
+height: 461.23px;
+left: 1371.82px;
+top: -99.54px;
+
+background: url(image.png);
+border-radius: 8px;
+transform: matrix(1, 0.08, -0.1, 1, 0, 0);
+
+
+/* About Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 128px 80px;
+gap: 80px;
+
+width: 1440px;
+height: 912px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Media */
+
+width: 501.47px;
+height: 529.98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image 2:3 */
+
+position: absolute;
+width: 411px;
+height: 489px;
+left: 170.86px;
+top: 214.53px;
+
+/* Primary/Primary 20 */
+background: #D7DAEA;
+border-radius: 8px;
+transform: rotate(2.5deg);
+
+
+/* _thumbnail */
+
+position: absolute;
+width: 64px;
+height: 50px;
+left: 185.57px;
+top: 227.38px;
+
+transform: rotate(2.5deg);
+
+
+/* Borders */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 3.41%;
+right: -3.41%;
+top: 0%;
+bottom: 0%;
+
+/* Primary/Primary 40 */
+border: 4px solid #A1A8CE;
+border-radius: 4px;
+transform: rotate(2.5deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 5.51%;
+right: 0.74%;
+top: 30.15%;
+bottom: 23.85%;
+
+/* Primary/Primary 40 */
+border: 4px solid #A1A8CE;
+transform: rotate(2.5deg);
+
+
+/* Ellipse */
+
+position: absolute;
+left: 65.3%;
+right: 22.2%;
+top: 19.47%;
+bottom: 64.53%;
+
+/* Primary/Primary 40 */
+background: #A1A8CE;
+transform: rotate(2.5deg);
+
+
+/* Image 2:3 */
+
+position: absolute;
+width: 411px;
+height: 489px;
+left: 80px;
+top: 191.01px;
+
+background: #F2F3F8;
+border-radius: 8px;
+
+
+/* _thumbnail */
+
+position: absolute;
+width: 64px;
+height: 50px;
+left: 174px;
+top: 220px;
+
+
+
+/* Borders */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Primary/Primary 40 */
+border: 4px solid #A1A8CE;
+border-radius: 4px;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 30%;
+bottom: 24%;
+
+/* Primary/Primary 40 */
+border: 4px solid #A1A8CE;
+
+
+/* Ellipse */
+
+position: absolute;
+left: 62.5%;
+right: 25%;
+top: 16%;
+bottom: 68%;
+
+/* Primary/Primary 40 */
+background: #A1A8CE;
+
+
+/* About Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+width: 698.53px;
+height: 656px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Heading 1 */
+
+width: 698.53px;
+height: 56px;
+
+/* Headings/Heading 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+letter-spacing: -0.02em;
+
+color: #351F17;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body 1 */
+
+width: 698.53px;
+height: 432px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* Neutrals / Neutral 80 */
+color: #666666;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Metrics */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 698.53px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Experience */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 337.27px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Display [Desktop]  */
+
+width: 91px;
+height: 72px;
+
+/* Display/Display Large */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 72px;
+/* identical to box height, or 112% */
+letter-spacing: -0.02em;
+
+color: #6F4324;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body 1 */
+
+width: 222.27px;
+height: 48px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* Neutrals / Neutral 80 */
+color: #666666;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Projects */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 337.27px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Display [Desktop] */
+
+width: 91px;
+height: 72px;
+
+/* Display/Display Large */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 72px;
+/* identical to box height, or 112% */
+letter-spacing: -0.02em;
+
+color: #6F4324;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body 1 */
+
+width: 222.27px;
+height: 48px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* Neutrals / Neutral 80 */
+color: #666666;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Services Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px;
+gap: 48px;
+
+width: 1440px;
+height: 652px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Section Heading */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1280px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 1 */
+
+width: 551px;
+height: 56px;
+
+/* Headings/Heading 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+letter-spacing: -0.02em;
+
+color: #351F17;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body 1 */
+
+width: 512px;
+height: 48px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* Neutrals / Neutral 80 */
+color: #666666;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Services Cards */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1280px;
+height: 332px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card / Description / Link */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 48px;
+
+width: 410.67px;
+height: 332px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+/* Primary/Primary 20 */
+border: 1px solid #D7DAEA;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 10px;
+
+display: none;
+width: 48px;
+height: 48px;
+
+/* Primary/Primary 20 */
+background: #D7DAEA;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/Outline/desktop-computer */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Card Details */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 362.67px;
+height: 218px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Primary Info */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 362.67px;
+height: 202px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* USER RESEARCH */
+
+width: 362.67px;
+height: 32px;
+
+/* Headings / Heading 4 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+letter-spacing: -0.02em;
+
+color: #351F17;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card description */
+
+width: 362.67px;
+height: 168px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* Neutrals / Neutral 80 */
+color: #666666;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+display: none;
+width: 162px;
+height: 94px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 75px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon/Outline/arrow-sm-right */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Learn more */
+
+width: 75px;
+height: 18px;
+
+/* Link/Link Medium - Underline */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+text-decoration-line: underline;
+
+color: #6F4324;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Card / Description / Link */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 48px;
+
+width: 410.67px;
+height: 332px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+/* Primary/Primary 20 */
+border: 1px solid #D7DAEA;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 10px;
+
+display: none;
+width: 48px;
+height: 48px;
+
+/* Primary/Primary 20 */
+background: #D7DAEA;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Card Details */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 362.67px;
+height: 284px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Primary Info */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 362.67px;
+height: 250px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card title */
+
+width: 362.67px;
+height: 32px;
+
+/* Headings / Heading 4 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+letter-spacing: -0.02em;
+
+color: #351F17;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card description */
+
+width: 362.67px;
+height: 216px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* Neutrals / Neutral 80 */
+color: #666666;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+display: none;
+width: 162px;
+height: 94px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Link
+
+Primary links take users to a specific page on a website or to an external link. These links should be underlined and colored in a primary or accent color (as our primary color is dark, it serves as an accent color in this case).
+
+Usage: These links are typically placed in UI cards or under text where you want to direct the user to a different page with additional information.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 75px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link label */
+
+width: 75px;
+height: 18px;
+
+/* Link/Link Medium - Underline */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+text-decoration-line: underline;
+
+color: #6F4324;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/Outline/arrow-sm-right */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Card / Description / Link */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 48px;
+
+width: 410.67px;
+height: 332px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+/* Primary/Primary 20 */
+border: 1px solid #D7DAEA;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 10px;
+
+display: none;
+width: 48px;
+height: 48px;
+
+/* Primary/Primary 20 */
+background: #D7DAEA;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Card Details */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 362.67px;
+height: 284px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Primary Info */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 362.67px;
+height: 250px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card title */
+
+width: 362.67px;
+height: 32px;
+
+/* Headings / Heading 4 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+letter-spacing: -0.02em;
+
+color: #351F17;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card description */
+
+width: 362.67px;
+height: 216px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* Neutrals / Neutral 80 */
+color: #666666;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+display: none;
+width: 162px;
+height: 94px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Link
+
+Primary links take users to a specific page on a website or to an external link. These links should be underlined and colored in a primary or accent color (as our primary color is dark, it serves as an accent color in this case).
+
+Usage: These links are typically placed in UI cards or under text where you want to direct the user to a different page with additional information.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 75px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link label */
+
+width: 75px;
+height: 18px;
+
+/* Link/Link Medium - Underline */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+text-decoration-line: underline;
+
+color: #6F4324;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/Outline/arrow-sm-right */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Portfolio Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px;
+gap: 48px;
+
+width: 1440px;
+height: 1360px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Section Heading */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1280px;
+height: 168px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 1 */
+
+width: 671px;
+height: 112px;
+
+/* Headings/Heading 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* or 117% */
+letter-spacing: -0.02em;
+
+color: #351F17;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body 1 */
+
+width: 512px;
+height: 48px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* Neutrals / Neutral 80 */
+color: #666666;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Media */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1280px;
+height: 984px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* image 8 */
+
+width: 1280px;
+height: 512px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Project 2 & 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1280px;
+height: 448px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* image 12 */
+
+width: 628px;
+height: 448px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* image 16 */
+
+width: 628px;
+height: 448px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Client Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 80px;
+gap: 48px;
+
+width: 1440px;
+height: 418px;
+
+/* Base / Base 10 */
+background: #FAFAFA;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 128px;
+gap: 10px;
+
+width: 1280px;
+height: 160px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 3 */
+
+width: 1024px;
+height: 160px;
+
+/* Headings / Heading 3 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+/* or 125% */
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Primary / Primary 100 [Main] */
+color: #2C314E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Client / User */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 1280px;
+height: 50px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* _textAvatar */
+
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Avatar */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Primary/Primary 10 */
+background: #F2F3F8;
+
+
+/* Text (Name Initials) */
+
+position: absolute;
+left: 29.17%;
+right: 12.5%;
+top: 25%;
+bottom: 25%;
+
+/* Body / Body 1 - Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Primary/Primary 40 */
+color: #A1A8CE;
+
+
+
+/* Client Name */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 221px;
+height: 50px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Tia Osuma */
+
+width: 83px;
+height: 24px;
+
+/* Body / Body 1 - Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-align: center;
+
+/* Neutrals / Neutral 100 */
+color: #383838;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* UX/UI Designer & Researcher */
+
+width: 221px;
+height: 24px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-align: center;
+
+/* Neutrals / Neutral 80 */
+color: #666666;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 80px;
+gap: 48px;
+
+width: 1440px;
+height: 440px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Newsletter */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 48px;
+
+width: 1280px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 1 */
+
+width: 773px;
+height: 112px;
+
+/* Headings/Heading 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* or 117% */
+letter-spacing: -0.02em;
+
+/* Neutrals / Neutral 100 */
+color: #383838;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Form Element */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 459px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Input / No Label / No Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 459px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 320px;
+height: 24px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Input Field */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+gap: 16px;
+
+width: 459px;
+height: 48px;
+
+/* Primary/Primary 20 */
+border: 1px solid #D7DAEA;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Placeholder */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 427px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Icon/Outline/calendar */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Placeholder */
+
+width: 427px;
+height: 24px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Neutrals / Neutral 40 */
+color: #B8B8B8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Button / Large / Filled */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+
+width: 459px;
+height: 48px;
+
+background: #351F17;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button text */
+
+width: 69px;
+height: 16px;
+
+/* Button/Label - Semibold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+/* Base / Base 10 */
+color: #FAFAFA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Seperator */
+
+width: 1280px;
+height: 0px;
+
+/* Neutrals / Neutral 20 */
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy Rights */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 1280px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Social Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 296px;
+height: 40px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon Button / Medium / Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/Outline/dribbble */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.38%;
+top: 11.46%;
+bottom: 14.71%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Icon Button / Medium / Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon/Outline/instagram */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.51%;
+right: 33.15%;
+top: 33.15%;
+bottom: 33.51%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Vector */
+
+position: absolute;
+left: 72.92%;
+right: 27.04%;
+top: 27.08%;
+bottom: 72.92%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Icon Button / Medium / Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Icon/Outline/youtube */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.16%;
+right: 4.16%;
+top: 16.67%;
+bottom: 18.92%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Vector */
+
+position: absolute;
+left: 40.62%;
+right: 35.42%;
+top: 35.33%;
+bottom: 37.42%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Icon Button / Medium / Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Icon/Outline/twitter */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 12.46%;
+bottom: 12.78%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Icon Button / Medium / Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+/* Base / Base 0 */
+background: #FFFFFF;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Icon/Outline/linkedin */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 41.67%;
+right: 8.33%;
+top: 33.33%;
+bottom: 12.5%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 75%;
+top: 37.5%;
+bottom: 12.5%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 75%;
+top: 8.33%;
+bottom: 75%;
+
+/* Primary/Primary 40 */
+border: 2px solid #A1A8CE;
+
+
+/* Body 1 */
+
+width: 370px;
+height: 24px;
+
+/* Body/Body 1 - Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Neutrals / Neutral 50 */
+color: #A3A3A3;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
