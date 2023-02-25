@@ -1,55 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <h1>My Website</h1>
-  </header>
-
-  <main>
-    <section class="banner">
-      <h2>Welcome to My Website</h2>
-      <p>Here you can find information about our services and how to contact us.</p>
-    </section>
-
-    <section class="services">
-      <h2>Our Services</h2>
-      <ul>
-        <li>
-          <h3>Service 1</h3>
-          <p>Service description goes here.</p>
-        </li>
-        <li>
-          <h3>Service 2</h3>
-          <p>Service description goes here.</p>
-        </li>
-        <li>
-          <h3>Service 3</h3>
-          <p>Service description goes here.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="about">
-      <h2>About Us</h2>
-      <p>About us section goes here.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>Copyright © 2023</p>
-  </footer>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">My</span> Portfolio</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<section id="showcase">
+		<div class="container">
+			<h1>Welcome to My Portfolio</h1>
+			<p>This is a showcase of my work and experience.</p>
+		</div>
+	</section>
+	
+	<section id="about">
+		<div class="container">
+			<h2>About Me</h2>
+			<p>Insert your about me text here.</p>
+		</div>
+	</section>
+	
+	<section id="services">
+		<div class="container">
+			<h2>My Services</h2>
+			<p>Insert your services text here.</p>
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div class="container">
+			<h2>Contact Me</h2>
+			<form>
+				<div>
+					<label>Name:</label>
+					<input type="text" placeholder="Enter your name">
+				</div>
+				<div>
+					<label>Email:</label>
+					<input type="email" placeholder="Enter your email">
+				</div>
+				<div>
+					<label>Message:</label>
+					<textarea placeholder="Enter your message"></textarea>
+				</div>
+				<button type="submit" class="button_1">Send</button>
+			</form>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 My Portfolio. All Rights Reserved.</p>
+		</div>
+	</footer>
 </body>
 </html>
