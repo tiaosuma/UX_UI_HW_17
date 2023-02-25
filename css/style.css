@@ -1,0 +1,99 @@
+/* Styles for body and container */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  /* Styles for header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E5E5;
+  }
+  
+  header img {
+    height: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styles for banner */
+  .banner {
+    height: 400px;
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .banner h1 {
+    color: #FFF;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  /* Styles for featured content */
+  .featured {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .featured img {
+    max-width: 48%;
+  }
+  
+  .featured h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  /* Styles for footer */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
