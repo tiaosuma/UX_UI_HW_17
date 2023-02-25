@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <header>
-    <h1>Welcome to my website!</h1>
-  </header>
-  <nav>
-    <div>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </div>
-    <div>
-      <a href="#">Login</a>
-    </div>
-  </nav>
-  <section>
-    <h2>Featured Products</h2>
-    <div>
-      <img src="product1.jpg" alt="Product 1">
-      <h3>Product 1</h3>
-      <p>$19.99</p>
-    </div>
-    <div>
-      <img src="product2.jpg" alt="Product 2">
-      <h3>Product 2</h3>
-      <p>$24.99</p>
-    </div>
-    <div>
-      <img src="product3.jpg" alt="Product 3">
-      <h3>Product 3</h3>
-      <p>$29.99</p>
-    </div>
-  </section>
-  <footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
-  </footer>
-</body>
-
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Welcome to My Website</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor metus quis odio consectetur, non mattis augue varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec pulvinar, mauris nec rhoncus gravida, risus augue faucibus felis, vel tristique nulla odio sit amet est. Nunc vel ipsum et risus varius blandit in vitae risus. Nulla fermentum ultricies metus, ac rutrum quam iaculis ac.</p>
+      </section>
+      <section>
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor metus quis odio consectetur, non mattis augue varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec pulvinar, mauris nec rhoncus gravida, risus augue faucibus felis, vel tristique nulla odio sit amet est. Nunc vel ipsum et risus varius blandit in vitae risus. Nulla fermentum ultricies metus, ac rutrum quam iaculis ac.</p>
+      </section>
+      <section>
+        <h2>Our Services</h2>
+        <ul>
+          <li>Service 1</li>
+          <li>Service 2</li>
+          <li>Service 3</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Send">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
